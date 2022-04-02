@@ -1,4 +1,4 @@
-//  Print the number for using in C compiler
+//Requirement:Print the number for using in C compiler
 #include<stdio.h>
 void main() 
 {
