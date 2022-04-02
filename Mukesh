@@ -1,0 +1,13 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+void main()
+{
+int number=getNumberFromUser();
+printf("number is %d", number);
+}
+int getNumberFromUser()
+{
+    int i;
+    scanf("%d",&i);
+    return i;
+}
