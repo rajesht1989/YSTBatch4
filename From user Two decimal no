@@ -1,0 +1,16 @@
+//// get two decimal number from user and using format specifier print it on console
+#include<stdio.h>
+void main(){
+    float number = getTwoDecimalNumberFromUser();
+    printf("Number = %f",number);
+}
+    int getTwoDecimalNumberFromUser(){
+        int i;
+        scanf("%f",&i);
+        return i;
+}
+
+Result: 
+  */tmp/6G9eJFppDV.o
+12.3
+Number = 1095027968.000000
