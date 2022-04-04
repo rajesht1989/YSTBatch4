@@ -1,20 +1,21 @@
-// Get a four float number from user and print it on console
+// Get a four decimal number from user and print it on console
 #include <stdio.h>
-void main() {
-    float number1 = getAFloatNumberFromUser();
-    float number2 = getAFloatNumberFromUser();
-    float number3 = getAFloatNumberFromUser();
-    float number4 = getAFloatNumberFromUser();
-    printf("1st Number is %f \n",number1);
-    printf("2nd Number is %f \n",number2);
-    printf("3rd Number is %f \n",number3);
-    printf("4th Number is %f",number4);
-}
- int getAFloatNumberFromUser(){
+float getANumberFromUser(){
      float i; 
+     printf("enter a number" );
      scanf("%f",&i);
      return i;
 }
+void main(){
+    float number1 = getANumberFromUser();
+    float number2 = getANumberFromUser();
+    float number3 = getANumberFromUser();
+    float number4 = getANumberFromUser();
+    printf("Number is %f ,%f,%f,%f ",number1,number2,number3,number4);
+    
+}
+  
+
 
 
 
