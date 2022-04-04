@@ -1,0 +1,17 @@
+//Get a four decimals num from user &print it on console
+#include<stdio.h>
+void main() 
+{
+    float num1= getAFourNumberFromUser();
+    float num2= getAFourNumberFromUser();
+    float num3= getAFourNumberFromUser();
+    float num4=getAFourNumberFromUser();
+    printf("Numbers are %f,%f,%f,%f",num1,num2,num3,num4);
+}
+ getAFourNumberFromUser() 
+{
+    float i;
+    printf("Enter a number=");
+    scanf("%f",&i);
+    return i;
+}
