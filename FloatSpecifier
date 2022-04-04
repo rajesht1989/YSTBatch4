@@ -1,0 +1,6 @@
+//FormatSpecifierfloat
+#include <stdio.h>
+void main() {
+  float value =31.4;
+    printf("The value is %f",value);
+}

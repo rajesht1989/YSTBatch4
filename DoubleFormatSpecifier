@@ -1,0 +1,6 @@
+//FormatSpecifierDoubleFormat
+#include <stdio.h>
+void main() {
+    double number=8807141175;
+    printf("The number is%lf",number);
+}

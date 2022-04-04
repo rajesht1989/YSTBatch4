@@ -1,0 +1,6 @@
+//FormatSpecifierInFloat2
+#include <stdio.h>
+void main() {
+float length=4.5
+    printf("The length is%f",length);
+}

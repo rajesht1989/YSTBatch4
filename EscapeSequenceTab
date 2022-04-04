@@ -1,0 +1,10 @@
+//EscapeSequenceTab
+#include<stdio.h>
+void main() {
+    printf("Muppidathi\tStudent");
+    printf("Muppidathi\tStudent");
+    printf("Muppidathi\tStudent");
+    printf("Muppidathi\tStudent");
+    printf("Muppidathi\tStudent");
+
+}

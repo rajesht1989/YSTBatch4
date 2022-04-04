@@ -1,0 +1,10 @@
+//EscabeBackSpace3
+#include<stdio.h>
+void main() {
+    printf("Goods\b\tSleep\n");
+    printf("Goods\b\tSleep\n");
+    printf("Goods\b\tSleep\n");
+    printf("Goods\b\tSleep\n");
+    printf("Goods\b\tSleep\n");
+
+}

@@ -1,0 +1,6 @@
+//DefineANumberAndPrintItOnConsol
+#include<stdio.h>
+void main() {
+    int number=34;
+    printf("The number is %d",number);
+}

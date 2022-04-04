@@ -1,0 +1,10 @@
+//EscapeSequenceBackSpace
+#include<stdio.h>
+void main() {
+    printf("Welll\bStudy");
+    printf("Welll\bStudy");
+    printf("Welll\bStudy");
+    printf("Welll\bStudy");
+    printf("Welll\bStudy");
+
+}

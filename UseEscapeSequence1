@@ -1,0 +1,6 @@
+//escapespecifierinnewline
+#include<stdio.h>
+void main() {
+    printf("Muppidathi\nMuppidathi\nMuppidathi\nMuppidathi\nMuppidathi\nMuppidathi");
+
+}

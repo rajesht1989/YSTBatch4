@@ -1,0 +1,10 @@
+//EscapeSequence2
+#include<stdio.h>
+void main() {
+    printf("Muppidathi\n");
+    printf("Muppidathi\n");
+    printf("Muppidathi\n");
+    printf("Muppidathi\n");
+    printf("Muppidathi\n");
+
+}

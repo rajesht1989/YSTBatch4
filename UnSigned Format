@@ -1,0 +1,6 @@
+//FormatSpecifierUnSigned
+#include <stdio.h>
+void main() {
+    unsigned value=9;
+    printf("The value is%u",value);
+}

@@ -1,0 +1,6 @@
+//EscabeSequenceIn\v
+#include<stdio.h>
+void main() {
+    printf("NeverEver\vGiveUp");
+
+}

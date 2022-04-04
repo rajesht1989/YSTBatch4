@@ -1,0 +1,6 @@
+////EscabeSequenceInDoubleSlash2
+#include<stdio.h>
+void main() {
+    printf("\\Win Game \\");
+
+}

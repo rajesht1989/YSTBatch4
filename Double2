@@ -1,0 +1,6 @@
+//FormatSpecifierDoubleFormat2
+#include <stdio.h>
+void main() {
+    double value=33.3;
+    printf("The value is%lf",value);
+}

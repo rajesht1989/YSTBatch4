@@ -1,0 +1,8 @@
+//FormatSpecifierChar
+#include <stdio.h>
+void main() {
+  int chain=16;
+  char letter='a';
+    printf("the chain is %d\n",chain);
+    printf(" the letter is %c\n",letter);
+}

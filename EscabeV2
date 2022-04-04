@@ -1,0 +1,6 @@
+////EscabeSequenceInv2
+#include<stdio.>
+void main() {
+    printf("Thing\vAbout");
+
+}

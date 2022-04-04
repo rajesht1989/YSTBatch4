@@ -1,0 +1,6 @@
+//CharPrintOnconsol
+#include<stdio.h>
+void main() {
+    char name='m';
+    printf("%c",name);
+}

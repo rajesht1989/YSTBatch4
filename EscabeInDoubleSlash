@@ -1,0 +1,6 @@
+////EscabeSequenceInDoubleSlash
+#include<stdio.h>
+void main() {
+    printf("\\Walk \\");
+
+}
