@@ -1,0 +1,15 @@
+//Get a two decimals num from user &print it on console
+#include<stdio.h>
+void main() 
+{
+    float num1= getATwoNumberFromUser();
+    float num2= getATwoNumberFromUser();
+    printf("Numbers are %f,%f",num1,num2);
+}
+int getATwoNumberFromUser() 
+{
+    float i;
+    printf("Enter a number=");
+    scanf("%f",&i);
+    return i;
+}
