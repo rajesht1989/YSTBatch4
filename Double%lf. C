@@ -1,0 +1,7 @@
+//  Print the number for using in C compiler
+#include<stdio.h>
+void main() 
+{
+    double number =1.0382456700;
+    printf("The number is %lf",number);
+}
