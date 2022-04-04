@@ -1,0 +1,17 @@
+//Get a four num from user &print it on console
+#include<stdio.h>
+void main() 
+{
+    int num1= getAFourNumberFromUser();
+    int num2= getAFourNumberFromUser();
+    int num3= getAFourNumberFromUser();
+    int num4=getAFourNumberFromUser();
+    printf("Numbers are %d,%d,%d",num1,num2,num3,num4);
+}
+int getAFourNumberFromUser() 
+{
+    int i;
+    printf("Enter a number=");
+    scanf("%d",&i);
+    return i;
+}
