@@ -1,0 +1,14 @@
+//Get character from user &print it on console
+#include<stdio.h>
+void main() 
+{
+    char name= getACharacterFromUser ();
+    printf("Name is %c",name);
+}
+int getACharacterFromUser() 
+{
+    float i;
+    printf("Enter a name=");
+    scanf("%c",&i);
+    return i;
+}
