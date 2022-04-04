@@ -1,0 +1,14 @@
+//Get a decimals num from user &print it on console
+#include<stdio.h>
+void main() 
+{
+    float num1= getANumberFromUser();
+    printf("Number is ,%f",num1);
+}
+int getANumberFromUser() 
+{
+    float i;
+    printf("Enter a number=");
+    scanf("%f",&i);
+    return i;
+}
