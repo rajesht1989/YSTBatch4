@@ -1,0 +1,22 @@
+//get 2 letter from user and using format specifier print it on console
+#include<stdio.h>
+void main(){
+    int number1 = getANumberFromUser();
+    int number2 = getANumberFromUser();
+  printf("Number is %d,%d",number1,number2);
+}
+    int getANumberFromUser(){
+       int i;
+       printf("enter A Number");
+        scanf("%d",&i);
+        return i;
+}
+
+Result:
+*/tmp/xYhQ5OpW8T.o
+enter A Number12
+12
+12
+
+12
+enter A NumberNumber is 12,
