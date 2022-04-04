@@ -1,0 +1,15 @@
+//Get a two character from user &print it on console
+#include<stdio.h>
+void main() 
+{
+    char name1= getATwoCharacterFromUser ();
+    char name2=  getATwoCharacterFromUser();
+    printf("Name is %c,%c",name1,name2);
+}
+int getATwoCharacterFromUser() 
+{
+    char i;
+    printf("Enter a name=");
+    scanf("%c",&i);
+    return i;
+}
