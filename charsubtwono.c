@@ -11,6 +11,6 @@ char getATwoCharacterFromUser()
  {
   char character1 = getATwoCharacterFromUser();
   char character2 = getATwoCharacterFromUser();
-  char sub = character1+character2;
+  char sub = character1-character2;
   printf("Subtraction value is :",sub);
 }
