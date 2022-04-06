@@ -11,6 +11,6 @@ char getATwoCharacterFromUser()
  {
   char character1 = getATwoCharacterFromUser();
   char character2 = getATwoCharacterFromUser();
-  float add = character1+character2;
+  char add = character1+character2;
   printf("Addition value is :",add);
 }
