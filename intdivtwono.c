@@ -11,6 +11,6 @@ int getATwoNumberFromUser()
  {
   int num1 = getATwoNumberFromUser();
   int num2 = getATwoNumberFromUser();
-  int div = numa+num2;
+  int div = num1/num2;
   printf("Division value is :",div);
 }
