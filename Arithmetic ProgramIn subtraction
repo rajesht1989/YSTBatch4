@@ -1,0 +1,8 @@
+// write a arithmetic operation subtraction and print on console
+#include <stdio.h>
+void subtractAndPrint(int a, int b) {
+printf("Subtract is %d",a-b);
+}
+void main() {
+    subtractAndPrint(68,19);
+}
