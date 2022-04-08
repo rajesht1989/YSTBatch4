@@ -1,0 +1,8 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+void divideAndPrint(int a, int b) {
+printf("Additon is %d",a/b);
+}
+void main() {
+    divideAndPrint(8,2);
+}
