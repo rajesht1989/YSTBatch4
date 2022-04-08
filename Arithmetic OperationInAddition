@@ -1,0 +1,8 @@
+// write on arithmetic operation in add and print on console
+# <stdio.h>
+void addAndPrint(int a, int b) {
+printf("Additon is %d",a+b);
+}
+void main() {
+    addAndPrint(10,16);
+}
