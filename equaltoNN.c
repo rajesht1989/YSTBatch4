@@ -14,10 +14,8 @@ int main(){
     void checkIfTheNumber(int number){
     if(number == 19){
         printf("Thats perfect");
-    }else if (number < 19){
+    }else {
         printf("Thats imperfect");
     }
-    else if (number > 19){
-        printf("Thats imperfect");
-    }
+   
 }
