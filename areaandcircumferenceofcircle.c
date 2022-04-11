@@ -4,7 +4,7 @@ float main()
 {
     float r = getARadiusFromUser();
     checkTheAreaOfCircle(r);
-    checkTheCircumferenceOfCircle();
+    checkTheCircumferenceOfCircle(r);
     return 0;
 }
 int getARadiusFromUser()
@@ -19,7 +19,7 @@ float checkTheAreaOfCircle(float r)
   printf("Area of circle %f",3.14*r*r);
   return 0;
 }
-float checkTheCircumferenceOfCircle()
+float checkTheCircumferenceOfCircle(float r)
 {
   printf("Circumference of circle %f",2*3.14*r);
   return 0;
