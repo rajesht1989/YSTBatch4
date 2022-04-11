@@ -3,7 +3,7 @@
 int main()
 {
     int i = getANumberFromUser();
-    checkIfGreaterthanOfNumber(i);
+    checkIfLessrthan100(i);
     return(i);
 }
 int getANumberFromUser()
@@ -13,13 +13,13 @@ int getANumberFromUser()
     scanf("%d",&i);
     return i;
 }
-void checkIfGreaterthanOfNumber(int i)
+void checkIfLessthan100(int i)
 {
     if(i<100){
-        printf("Greaterthan number");
+        printf("Lessthan number");
     }
     else
 {
-    printf("Not a greaterthan number");
+    printf("Not lessthan number");
 }
 }
