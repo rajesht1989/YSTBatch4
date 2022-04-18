@@ -1,0 +1,17 @@
+ //write a program that uses of arithmetic opreators
+#include<stdio.h>
+void main() {
+ int a = 4, b;
+  b = a;
+  b += a;
+ printf("Addition is %d \n",b);
+  b -= a;
+ printf("Subtrction is %d \n",b);
+  b *= a;
+ printf("Multliplication is %d \n",b);
+  b /= a;
+ printf("Quotient is %d \n",a);
+  b %= a;
+ printf("Reminder is %d",b);
+ 
+}
