@@ -1,4 +1,4 @@
-// get a two number from user and add them if it is identify the even number
+// get a two number from user and multiple them if it is identify the even number
 #include<stdio.h>
 
 int getANumberFromUser(){
@@ -7,7 +7,7 @@ int getANumberFromUser(){
     scanf("%d",&number);
     return number;
 }
-int addTwoNumberFromUser(int i,int j){
+int multipleTwoNumberFromUser(int i,int j){
   return i*j;
 }
 void identifyOddOrEven(int i,int j){
@@ -21,8 +21,8 @@ void identifyOddOrEven(int i,int j){
 int main(){
     int number1 = getANumberFromUser();
     int number2 = getANumberFromUser();
-    int addition = addTwoNumberFromUser(number1,number2);
-    printf("Addition is %d \n",addition);
+    int addition = multipleTwoNumberFromUser(number1,number2);
+    printf("Multiplication is %d \n",addition);
     identifyOddOrEven(number1,number2);
     return 0;
 }
