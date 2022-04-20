@@ -1,4 +1,4 @@
-// get a two number from user and add them if it is identify the even number
+// get a two number from user and division them if it is identify the even number
 #include<stdio.h>
 
 int getANumberFromUser(){
