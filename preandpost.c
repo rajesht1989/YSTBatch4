@@ -3,20 +3,19 @@
 
 int getANumberFromUser(){
     int n;
-    printf("please enter a number :");
+    printf("please enter a number : \n");
     scanf("%d",&n);
     return n;
 }
 
 void numberForPreIncrementAndPostIncrement(int n){
-    printf ("Number for pre increment is : %d",++n);
-    return ++n;
-printf ("Number for post increment is : %d",n++);
+    printf ("Number for pre increment is : %d \n",++n);
+printf ("Number for post increment is : %d \n",n++);
     }
  
  void numberForPreDecrementAndPostDecrement(int n){
-    printf ("Number for pre decrement is : %d",--n);
-printf ("Number for post decrement is : %d",n--);
+    printf ("Number for pre decrement is : %d \n",--n);
+printf ("Number for post decrement is : %d \n",n--);
 }
 
 void main() {
