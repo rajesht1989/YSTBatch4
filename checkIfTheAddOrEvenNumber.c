@@ -6,16 +6,16 @@ int getANumberFromUser(){
     scanf("%d", &number);
     return number;
 }
-int checkIfTheAddOrEvenNumber(int a){
+int checkIfTheEvenNumber(int a){
     if(a% 2 == 0){
         printf("Enter a Even Number");
     }
     else{
-        printf("Enter a Add Number");
+        printf("That is wrong");
     }
 }
 int main(){
     int i = getANumberFromUser();
-    checkIfTheAddOrEvenNumber(i);
+    checkIfTheEvenNumber(i);
 }
     
