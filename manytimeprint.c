@@ -5,15 +5,15 @@ int getANumberFromUser ()
 {
  int n;
  printf ("Please enter a number");
- Scanf("%d",n);
+ Scanf("%d",&n);
  return n;
 }
 
 int givenNumberOfTimesPrintAName(int n)
 {
- for(i=0;i<n;i++)
+ for(int i=0;i<n;i++)
  {
-  printf ("KAMARAJ");
+  printf ("KAMARAJ \n");
   }
  }
 
