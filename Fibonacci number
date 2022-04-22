@@ -1,0 +1,35 @@
+// Toget the number from user and identify number if it fibonacci
+/*
+Algorithm:
+1- write the a function (i.e)gerNum()to get input form user using scanf() function
+2- write a function (i.e)fibNum() to generating fibanocci values for user input.
+    2.1- In this function to set some value for variable
+    (i.e)f1=0,f2=1,f3
+    2.2 After declaring the values for the variable using for loop(i.e)for(i=1;i<=n;i++)and proceed the loop we got f1 value(i.e)fibonacci value
+3- To write the main function (i.e) int main() to call the already created function we got output and print it in the console.
+*/
+#include<stdio.h>
+int getNum()
+{
+    int n;
+    printf("/n Enter the number for showing fibonacci:");
+    scanf("%d",&n);
+    return n;
+}
+void fibNum(int n)
+{
+    int f1=0,f2=1,f3;
+    {
+        for(int i=1;i<=n;i++)
+        {
+            f3=f1+f2;
+            printf("%d\t",f1);
+            f1=f2;
+            f2=f3;
+        }
+    }
+}
+int main()
+{
+    fibNum(getNum());
+}
