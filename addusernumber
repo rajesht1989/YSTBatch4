@@ -1,0 +1,38 @@
+//To get the number form user and get these many number add them
+/*
+Algorithm:
+1- To write a function for get input from user i.e getNum()
+   1.1-using sanf() and  printf() to get input from user
+2-To write a function for add user input i.e int addFunction()
+  2.1 In this function using forloop i.e for(i=0;i<n;i;i++)to get the user iput.
+  2.2- After get the uset input to add all input add+=value
+  2.3 -To print the add value.
+3-TO write a main function i.e int main() and call the already create function i.e getNum() and addFunction()
+    3.1- To run the code the output will be display on console.
+    */
+   
+  #include<stdio.h>
+  int getNum()
+  {
+      int n;
+      scanf("%d",&n);
+      return n;
+  }
+  int addFunction(int n)
+  {
+      int addition = 0;
+      for(int i=0;i<n;i++)
+      {
+          printf("\nEnter %d number",i+1);
+          int value=getNum();
+          addition+=value;
+      }
+      return addition;
+  }
+  int main()
+  {
+      printf ("\n Enter how many numberto add:");
+      int n=getNum();
+      int addition  =addFunction(n);
+      printf("\n The value of addition for user input is:%d",addition);
+  }
