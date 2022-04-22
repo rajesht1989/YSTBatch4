@@ -1,4 +1,9 @@
-// Get a number from user and draw star rectangle 1:2 print it on console
+/*Requirment : Get a number from user and draw star rectangle 1:2 ratio
+Algorithm :
+ - Write a function to get a number from user using scanf.
+ - Write a function to draw the rectangle of 1:2 ratio.
+ - Write a function of main to invoc to call get a number from user and star rectangle for 1or2 ratio.
+   - Print the star rectangle to the console.  */ 
  #include <stdio.h> 
  
  int getNumberOfWindows() {
