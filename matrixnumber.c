@@ -16,7 +16,7 @@ Algorithm :
 void drawMatrixNumber(int n) {
     for (int j = 0; j < n; j++) {
         for(int i = 0; i < n; i++){
-            printf("%d \t",i,j);
+            printf("%d %d\t",i,j);
         } 
         printf("\n");
     }
