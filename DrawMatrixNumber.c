@@ -9,7 +9,7 @@ int getANumberFromUser(){
 void drawMatrix(int n){
     for(int i = 0; i<n; i++){
        for(int j = 0; j<n; j++){
-         printf("%d%d\t",i,j);
+         printf("%d,%d \t",i,j);
     }
     printf("\n");
     }
