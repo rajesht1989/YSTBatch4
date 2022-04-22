@@ -1,4 +1,5 @@
-// Get a number from user and those many number to print it on console
+/*Requirement: Get a number from user and those many number to print it on console
+*/
  #include <stdio.h> 
  
  int getNumberFromUser() {
