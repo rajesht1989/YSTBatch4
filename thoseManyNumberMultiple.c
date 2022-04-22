@@ -1,4 +1,4 @@
-//RequirementL get a number from user and get those many numbers, add them and print it console
+//RequirementL get a number from user and get those many numbers, multiple them and print it console
 
 /*
 Algorithm:
@@ -15,13 +15,13 @@ int getANumberFromUser() {
 }
 
 int multipleNumber(int i) {
-    int addition = 1;
+    int number = 1;
     for (int a = 0; a < i; a++ ) {
         printf("Enter number %d: ",a + 1 );
         
-        addition *= getANumberFromUser(); 
+        number *= getANumberFromUser(); 
     }
-    return addition;
+    return number;
 }
 
 void main() {
@@ -29,5 +29,5 @@ void main() {
     int number= getANumberFromUser();
      
    int add = multipleNumber(number);
-   printf("Addtion is %d " , add );
+   printf(" Multiplication is %d " , add );
 }
