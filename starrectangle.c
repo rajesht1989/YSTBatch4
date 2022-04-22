@@ -6,7 +6,7 @@ Algorithm :
    - Print the star rectangle to the console.  */ 
  #include <stdio.h> 
  
- int getNumberOfWindows() {
+ int getANumberFromUser() {
      int i;
      printf("Please enter a number ");
      scanf("%d", &i);
@@ -24,5 +24,5 @@ void drawRectangleFor1Or2(int n) {
 
 
 void main() {
-    drawRectangleFor1Or2(getNumberOfWindows());
+    drawRectangleFor1Or2(getANumberFromUser());
 }
