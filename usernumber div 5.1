@@ -1,0 +1,40 @@
+//To get the number form user and add them if it diisible by 5
+#include<stdio.h>
+int getNum()
+{
+    int n;
+    
+    scanf("%d",&n);
+    return n;
+}
+int addNum(int n)
+{
+int addition=0;
+
+    for(int i=0;i<n;i++)
+    {
+        printf("\n Enter %d number:",i+1);
+    int value=getNum();
+    addition+=value;
+    }
+    
+return addition;
+}
+int isDivide(addition)
+{
+    if(addition%5==0)
+    {
+        printf("\n The add value is divide by 5:");
+    }
+    else
+    printf("\n The add value is not divide by 5:");
+}
+int main()
+{
+    printf("\n Enter the number of values are add:");
+    int n=getNum();
+    int addition=addNum(n);
+    printf("\n The value of addition is %d:",addition);
+    isDivide(addition);
+    
+}
