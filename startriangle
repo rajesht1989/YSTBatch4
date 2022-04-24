@@ -1,0 +1,39 @@
+/*To get the number from user and print the star in triangle shape
+
+Algorithm:
+1- To write a function for get the input form user i.e getNum()
+  1.1- using scanf()and printf() foe getting input form user and print 
+2- To write a function for print the star in a triangle shape i.e printStar()
+   2.1- using for loop to print star triangle i.e for(i=0;i<=j;i++) and for(j=0;j<=n;i++)
+ 3- To write the function main for print the output on console.*/  
+
+#include<stdio.h>
+int getNum()
+{
+    int n;
+    printf("\n Enter number for ptinting star:");
+    scanf("%d",&n);
+    return n;
+}
+int printStar(int n)
+{
+    for(int j=1;j<=n;j++)
+    {
+        for(int i=1;i<=j;i++)
+           {
+             
+              
+                printf("*\t");
+               
+           }
+            
+           
+    printf("\n");
+   
+}
+}
+
+int main()
+{
+    printStar(getNum());
+}
