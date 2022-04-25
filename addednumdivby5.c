@@ -1,4 +1,4 @@
-//Requirement : Get a number from user and get those many numbers, add them and print it console
+//Requirement : Get a number from user and get those many numbers, add them and divisible 5 print it console
 
 /*
 Algorithm:
