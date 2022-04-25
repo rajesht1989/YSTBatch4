@@ -15,7 +15,7 @@ int getANumberFromUser() {
     return n;
 }
 
-int additionOfNumbersFromUser(int n) {
+int additionOfGivenNumber(int n) {
     int addition = 0;
     for (int i = 0; i < n; i++ ) {
         printf("Enter %d number ", i + 1);
