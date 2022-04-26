@@ -1,0 +1,22 @@
+//To get the number form user and identify last number of it
+#include<stdio.h>
+int getNum()
+{
+    int n;
+    
+    printf("\n Enter the number for identify number:");
+    
+    scanf("%d",&n);
+    return n;
+}
+int identifyNum(int n)
+{
+    int c;
+  c= n%10;
+  printf("\n The last digit of a number is %d",c);
+}
+
+int main()
+{
+   identifyNum(getNum());
+}
