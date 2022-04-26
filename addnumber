@@ -1,0 +1,23 @@
+//To get the number form user and add the number and print it
+#include<stdio.h>
+int getNum()
+{
+    int a;
+    
+    printf("\n Enter the number for add it:");
+    printf("\n Enter the number:");
+    scanf("%d",&a);
+    return a;
+}
+int addNum(int a,int b)
+{
+    int c;
+    c=a+b;
+    printf("\n The value of addition is %d",c);
+}
+
+int main()
+{
+   int a = getNum(), b = getNum();
+   addNum(a, b);
+}
