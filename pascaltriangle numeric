@@ -1,0 +1,31 @@
+//To get the number form user and print pascal triangle and number on it
+#include<stdio.h>
+int getNum()
+{
+ int n;
+    printf("Enter the user input:");
+    scanf("%d",&n);
+    return n;
+}
+void printStar(int n)
+{
+    int c = 0;
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<n-1-i;j++)
+        {
+        printf(" ");
+    
+    }
+    for(int j=0;j<=2*i;j++)
+    {
+        
+            printf("%d",++c);
+}
+printf("\n");
+}
+}
+int main()
+{
+   printStar(getNum());
+    }
