@@ -1,0 +1,30 @@
+//To get the radius and height form user and find the volume of the cone
+#include<stdio.h>
+int getRadii()
+{
+    int r; 
+    printf("\n Volume of the cone");
+    printf("\n Enter the RADIUS of the cone:");
+    scanf("%d",&r);
+    return r;
+}
+int getHeight()
+{
+    int h; 
+    printf("\n Enter the HEIGHT of the cone:");
+    scanf("%d",&h);
+    return h;
+}
+int coneVolume(int r,int h)
+{
+  int v;
+  v=3.14*r*r*h/3;
+  printf("\n The volume of cone is: %d",v);
+}
+int main()
+{
+     
+   int r= getRadii();
+   int h= getHeight();
+    coneVolume(  r, h);
+}
