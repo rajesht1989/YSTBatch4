@@ -11,7 +11,7 @@ int getNumber(){
 void factorialNumber(int n){
     int a=1;
     for(int i=1;i<=n;i++){
-    a=a*n; 
+    a=a*i; 
 }
     printf("Factorial of  is: %d",a);
     
