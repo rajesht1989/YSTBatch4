@@ -18,8 +18,8 @@ void identifyTheFactorialNumber(int a){
     int fact = 1;
         for (int i = 1; i <= a; i++){
             fact *= i;
-           printf ("Factorial is : %d",fact); 
-    }
+        }
+        printf ("Factorial is : %d",fact); 
 }
 
 void main (){
