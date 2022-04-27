@@ -1,0 +1,32 @@
+//To get the number form user and find amstrong number
+#include<stdio.h>
+int getNum()
+{
+    int n;
+    printf("\n Enter the number as input :");
+    scanf("%d",&n);
+    return n;
+}
+int addNum(int n)
+{
+    int sum=0,m,c;
+for( int i=n; i!=0; i=i/10 )
+    {
+      m=n%10;
+      
+    c=m*m*m;
+      sum=sum+c;
+    }
+    if(sum=n)
+    {
+    printf("The value is Amstrong number");
+    }
+    else
+    {
+        printf("\n The value is not amstrong");
+    }
+}
+int main()
+{
+    addNum(getNum());
+}
