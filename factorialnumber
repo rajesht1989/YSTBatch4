@@ -1,0 +1,22 @@
+//To get the number form user and print factorial number
+#include<stdio.h>
+int getNum()
+{
+    int n;
+    printf("\n Enter the number as input :");
+    scanf("%d",&n);
+    return n;
+}
+int factNum(int n)
+{
+    int fact=1;
+    for(int i=2;i<=n;i++)
+    {
+        fact=fact*i;
+    }
+    printf("The value of factorial  is :%d ",fact);
+}
+int main()
+{
+    factNum(getNum());
+}
