@@ -1,0 +1,41 @@
+// To get the number from user and identify if it prime then add the list of prime number
+#include<stdio.h>
+int getNum()
+{
+    int n;
+    printf("\n Enter the number for cheack number is prime:");
+    scanf("%d",&n);
+    return n;
+}
+int isPrime(int n)
+{
+    for(int i=2;i<=n/2;i++)
+    {
+        if(n%i==0)
+        {
+            
+        return 0;
+        } 
+        }
+        return n;
+}
+void primeList(int a)
+{
+    int sum=0;
+    for(int j=1;j<=a;j++)
+    {
+        int n=isPrime( j);
+        if(n!=0)
+        {
+            sum=sum+j;
+        }
+    
+    }
+    printf("\n The value of add is %d", sum);
+
+}
+int main()
+{ 
+    int a= getNum();
+    primeList(a);
+}
