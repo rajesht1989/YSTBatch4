@@ -1,0 +1,25 @@
+//To get year form user and cheak if the year is leap or not leap
+#include<stdio.h>
+int getYear()
+{
+    int y;
+    printf("\n Enter the year for cheak is leap or not leap:");
+    scanf("%d",&y);
+    return y;
+}
+int isLeap(int y)
+{
+    if(y%4==0 || y%400==0 && y%100!=0)
+    {
+        printf("\n The given user year is LEAP year");
+    }
+    else
+    {
+        printf("The given user year is NOT LEAP year");
+    }
+}
+int main()
+{
+isLeap(getYear());
+    
+}
