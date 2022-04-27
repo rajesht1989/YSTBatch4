@@ -1,0 +1,24 @@
+// To get the character form user and find it if is vowel or not
+#include<stdio.h>
+char getCharacter()
+{
+    char c;
+    printf("\n Enter character to identify is vowel or not:");
+    scanf("%c",&c);
+    return c;
+}
+char isVowel(char c)
+{
+    if(c=='a' || c=='e' ||c=='i' ||c=='o' ||c== 'u')
+    {
+        printf("\n The given character is VOWEL");
+    }
+    else
+    {
+        printf("\n The given value is NOT VOWEL it's CONSONANT");
+    }
+}
+char main()
+{
+    isVowel(getCharacter());
+}
