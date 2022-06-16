@@ -1,0 +1,20 @@
+// Write A To Girls Name Initial Get Char From  User
+#include <stdio.h>
+void getGirilsInitial(){
+    char i;
+    printf("Enter A Initial");
+    scanf("%c",&i);
+  //  return i;
+    }
+    void getGirilsName(char c){
+        if(c =='a'||c=='A'){
+            printf("Ayyanar");
+        }
+       else if (c == 'v'||c == 'V'){
+            printf("vikram");
+        }
+    }
+void main() {
+    char initial = getGirilsInitial();
+     getGirilsName(initial);
+}
