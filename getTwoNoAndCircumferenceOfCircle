@@ -1,0 +1,23 @@
+// write a program to find the circumference of circle get no from user and print it on console
+#include <stdio.h>
+
+float getNoFromUser(){
+    float i ;
+     printf("Enter the radius ");
+    scanf("%f",&i);
+    return i;
+}
+
+float findCircumference(float radius ){
+  
+    return (2*3.14 * radius);
+}
+ int main (){
+      
+    float radius = getNoFromUser();
+    float circumference = findCircumference( radius);
+  printf("answer is %f",circumference);
+
+   return 0;
+}
+
