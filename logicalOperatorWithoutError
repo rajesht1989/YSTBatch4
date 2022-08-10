@@ -1,0 +1,30 @@
+// write a program to logical operator in given no
+
+#include <stdio.h>
+int getNoFromUser(){
+    int i;
+    printf("Enter A No ");
+    scanf("%d",&i);
+    return i;
+}
+int andOperator(int a,int b){
+    printf("answer is %d \n",a && b);
+    
+}
+int orOperator(int a,int b){
+    printf("answer is %d\n ",a || b);
+    
+}
+int notOperator(int a,int b){
+    printf("answer is %d ",!(a != b));
+    
+}
+int main() {
+    int number1 = getNoFromUser();
+    int number2 = getNoFromUser();
+    
+   andOperator(number1,number2); 
+   orOperator(number1,number2); 
+  notOperator(number1,number2); 
+    return 0;
+}
