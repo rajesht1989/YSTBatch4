@@ -1,0 +1,23 @@
+// write a program to  get no from user and multiplication them value using assignment opreator print it on console
+#include <stdio.h>
+
+int getNoFromUser(){
+    int i ;
+    printf("Enter A No ");
+    scanf("%d",&i);
+    return i;
+}
+
+int addThemAssignmentOperator(int b ){
+    
+ return (b/=5);
+}
+ int main (){
+     
+    int number = getNoFromUser();
+     int addition = addThemAssignmentOperator(number);
+   printf("Addition is %d",addition);
+    
+     return 0;
+}
+
