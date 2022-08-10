@@ -1,0 +1,42 @@
+// write a program to increment & decrement get no from user and print it on console
+#include <stdio.h>
+
+int getNoFromUser(){
+    int i ;
+    printf("Enter A No ");
+    scanf("%d",&i);
+    return i;
+}
+
+int preIncrement(int a ){
+ 
+   printf("after preincrement %d\n",++a);
+   
+     printf("before preincrement %d\n",a);
+}
+int postIncrement(int b ){
+  printf("after postIncrement %d\n",b++);
+  
+   printf("before postIncrement %d\n",b);
+}
+int preDecrement(int c ){
+  printf("after preDecrement %d\n",--c);
+  
+   printf("before preDecrement %d\n",c);
+}
+int postDecrement(int d ){
+  printf("after postDecrement %d\n",d--);
+   printf("before postDecrement %d\n",d);
+}
+ int main (){
+     
+    int number = getNoFromUser();
+    
+    preIncrement(number);
+    postIncrement(number);
+    preDecrement(number);
+    postDecrement(number);
+    
+     return 0;
+}
+

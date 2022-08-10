@@ -1,0 +1,23 @@
+// write a program and get no from user and identify the last no it's on  console
+
+#include <stdio.h>
+int getANumberFromUser(){
+    int i;
+    printf("Enter A Number ");
+    scanf("%d",&i);
+    return i;
+}
+
+ int identifyALastNumber(int a){
+     int n=a%10;
+   return n;
+     
+ }
+ 
+
+void main() {
+ int a = identifyALastNumber(getANumberFromUser());
+  
+    printf(" %d",a);
+   
+}

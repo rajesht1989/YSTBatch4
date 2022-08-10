@@ -1,0 +1,19 @@
+// write a program to get nofrom user and divided them print it on console
+#include <stdio.h>
+int getNoFromUser(){
+    int i ;
+    printf("Enter a No ");
+    scanf("%d",&i);
+    return i;
+}
+int main() {
+    int number1 = getNoFromUser();
+    int number2 = getNoFromUser();
+    int divided = divisionTwoNo( number1 , number2);
+  printf("division is %d",divided);
+
+   return 0;
+}
+int divisionTwoNo(int a,int b){
+    return a/b;
+}

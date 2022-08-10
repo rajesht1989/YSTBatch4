@@ -1,0 +1,23 @@
+// Write A To Identify No Is Positive Or Negative Get  From  User
+#include <stdio.h>
+void getNoFromUser(){
+    int  i;
+    printf("Enter A No");
+    scanf("%d",&i);
+   return i;
+    }
+    void identifyNumber(int a){
+        if(a >0){
+            printf("Positive");
+        }
+       else if (a == 0){
+            printf("Nutral");
+        }
+        else {
+            printf("Negative");
+        }
+    }
+void main() {
+    int number = getNoFromUser();
+     identifyNumber(number);
+}

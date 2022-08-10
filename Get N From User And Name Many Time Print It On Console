@@ -1,0 +1,21 @@
+// Get No From User And Print Your Name That Many Time Print It On Console
+#include <stdio.h>
+void getNameFromUser(){
+    char k;
+    printf("Enter A No :");
+    scanf("%c",&k);
+   // return k;
+}
+void printManyTimes(char k){
+    for(char k = 0;k < 5;k++){
+        printf("%c",k);
+    }
+}
+
+int main() {
+    int i = getNameFromUser();
+    printManyTimes(i);
+  
+    
+    return 0;
+}

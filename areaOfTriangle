@@ -1,0 +1,24 @@
+// write a program to find the area of triangle get no from user and print it on console
+#include <stdio.h>
+
+int getNoFromUser(){
+    int i ;
+    scanf("%d",&i);
+    return i;
+}
+
+int findTheAreaOfTriangle(int base,int height ){
+   return ((height * base)/2);
+}
+ int main (){
+      printf("Enter A height ");
+    int height = getNoFromUser();
+     printf("Enter A base ");
+    int base = getNoFromUser();
+   int area = findTheAreaOfTriangle( height,base);
+  
+  printf("AreaOfTriangle is %d",area);
+
+   return 0;
+}
+

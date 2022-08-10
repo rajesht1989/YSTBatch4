@@ -1,0 +1,20 @@
+// write a program to find the volume of cylinder get no from user and print it on console
+#include <stdio.h>
+int getNoFromUser(){
+    int i ;
+    printf("Enter a No ");
+  //  printf("Enter a No Height ");
+    scanf("%d",&i);
+    return i;
+}
+int main() {
+    int radiusa = getNoFromUser();
+    int heightb = getNoFromUser();
+    int volume = findCylinderVolume( radiusa , heightb);
+  printf("answer is %d",volume);
+
+   return 0;
+}
+int findCylinderVolume(int radius ,int height){
+    return (3.5*radius*radius*height);
+}
