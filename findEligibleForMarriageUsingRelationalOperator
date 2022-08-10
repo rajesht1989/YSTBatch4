@@ -1,0 +1,30 @@
+// write a program to get no from user and find the eligible for marriage print it on console.
+#include <stdio.h>
+
+int getNoFromUser(){
+    int i ;
+    printf("Enter A No ");
+    scanf("%d",&i);
+    return i;
+}
+
+int findEligibleToMarrAge(int b ){
+    if (b==18){
+        printf("kili kichuruven");
+    }
+    else if (b>=18){
+         printf("mahali life matter uh");
+        
+    }
+    else {
+         printf("go to watch ben10 ");
+    }
+}
+ int main (){
+     
+    int number = getNoFromUser();
+   findEligibleToMarrAge(number);
+    
+     return 0;
+}
+
