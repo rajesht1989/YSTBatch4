@@ -1,0 +1,35 @@
+// write a program to get no from useer and find RGB color code print on console
+#include <stdio.h>
+int getNoFromUser(){
+    int i;
+    scanf("%d",&i);
+    return i;
+}
+int findRGBColor(int  R,int G,int B){
+    if (R<0 || R>255 && G<0 || G>255 && B<0 || B>255 ){
+        printf("invild color code ");
+    }
+   if (R == 255 && G == 255 && B == 255 ){
+        printf("white color");
+   }
+   if (R == 0 && G == 0 && B == 0 ){
+        printf("black color");
+   }
+    if (R == 255 && G == 0 && B == 0 ){
+        printf("red color");
+   }
+   else {
+          printf("none above in my ability");
+   }
+}
+int main(){
+    printf ("its color code is Red\n ");
+     int number1 = getNoFromUser();
+    printf ("its color code is Green\n ");
+     int number2 = getNoFromUser();
+    printf ("its color code is Blue\n ");
+      int number3 = getNoFromUser();
+      
+      findRGBColor(number1,number2,number3);
+    return 0;
+}
