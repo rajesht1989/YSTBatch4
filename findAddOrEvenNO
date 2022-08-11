@@ -1,0 +1,21 @@
+// writw a program to get no from user and find add or even no print it on console
+#include <stdio.h>
+int getNoFromUser(){
+    int i;
+    printf ("Enter A No ");
+    scanf ("%d",&i);
+    return i;
+}
+int findAddOrEvenNo(int a){
+    if(a%2 == 0){
+        printf ("its even no ");
+    }
+    else{
+          printf ("its odd no ");
+    }
+    }
+    int main(){
+        int number = getNoFromUser();
+        findAddOrEvenNo(number);
+        return 0;
+    }
