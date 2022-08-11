@@ -1,0 +1,33 @@
+// writw a program to get no from user and texiby numberto blow tewenty print it on console
+#include <stdio.h>
+int getNoFromUser(){
+    int i;
+    printf ("Enter A No ");
+    scanf ("%d",&i);
+    return i;
+}
+int texiByNumber(int a){
+   if (a == 20 ){
+       printf("its Tewnty");
+   }
+   else if (a == 19){
+       printf("its ninteen");
+   }
+    else if (a == 18){
+       printf("its eighteen");
+   }
+    else if (a == 17){
+       printf("its seventeen");
+   }
+    else if (a == 16){
+       printf("its sixteen");
+   }
+  else {
+       printf("none above my knowledge");
+  }
+    }
+    int main(){
+        int number = getNoFromUser();
+        texiByNumber(number);
+        return 0;
+    }
