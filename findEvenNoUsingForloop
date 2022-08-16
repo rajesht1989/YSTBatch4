@@ -1,0 +1,18 @@
+//write a program to get no from user and find even no print on console
+# include <stdio.h>
+int getNoFromUser(){
+    int k;
+    printf("Enter A Number ");
+    scanf("%d",&k);
+    return k;
+}
+int findOddOrEven(int a){
+    for (int i=1;i< a;i++){
+        if (i%2==0){
+        printf("Even Number %d\n",i);
+    }}
+}
+int main (){
+    int num = getNoFromUser();
+    findOddOrEven(num);
+}
