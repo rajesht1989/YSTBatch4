@@ -1,0 +1,23 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int getNumberFromUser () {
+    int i;
+    printf ("Enter A Number ") ;
+    scanf ("%d",&i);
+    return i;
+}
+int printTriangle(int a){
+    for(int i = 0;i < a ;i++){
+        for(int j = 0;j < i;j++){
+        printf ("*\t") ;
+    }
+    printf ("\n");
+    }
+}
+
+int main() {
+    int num = getNumberFromUser() ;
+    printTriangle (num);
+
+    return 0;
+}
