@@ -1,0 +1,20 @@
+// write a program to get no from user and find grestest equal value using assignment opertor print it on console
+#include <stdio.h>
+int getNumberFormUser(){
+    int i;
+    scanf("%d",&i);
+    return i;
+}
+int findGreatestEqualValue(int a,int b){
+    return a>=b;
+}
+
+int main() {
+      printf("Enter a first value ");
+      int number1 = getNumberFormUser();
+    printf("Enter A Second value ");
+       int number2 = getNumberFormUser();
+int greatest = findGreatestEqualValue(number1,number2);
+  printf("value is %d",greatest);
+    return 0;
+}
