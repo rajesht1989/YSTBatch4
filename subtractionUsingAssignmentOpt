@@ -1,0 +1,20 @@
+// write a program to get no from user and subtraction them using assignment opertor print it on console
+#include <stdio.h>
+int getNumberFormUser(){
+    int i;
+    scanf("%d",&i);
+    return i;
+}
+int findSubtractionThemValue(int a,int b){
+    return a-=b;
+}
+
+int main() {
+      printf("Enter a first value ");
+      int number1 = getNumberFormUser();
+    printf("Enter A Second value ");
+       int number2 = getNumberFormUser();
+int subtraction = findSubtractionThemValue(number1,number2);
+  printf("%d",subtraction);
+    return 0;
+}
