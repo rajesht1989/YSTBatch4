@@ -1,0 +1,20 @@
+// write a program to get no from user and find or gate equal value using logical opertor print it on console
+#include <stdio.h>
+int getNumberFormUser(){
+    int i;
+    scanf("%d",&i);
+    return i;
+}
+int findOrGateValue(int a,int b){
+    return a||b;
+}
+
+int main() {
+      printf("Enter a first value ");
+      int number1 = getNumberFormUser();
+    printf("Enter A Second value ");
+       int number2 = getNumberFormUser();
+int orgate = findOrGateValue(number1,number2);
+  printf("value is %d",orgate);
+    return 0;
+}
