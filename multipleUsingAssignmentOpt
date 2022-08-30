@@ -1,0 +1,20 @@
+// write a program to get no from user and multiple them using assignment opertor print it on console
+#include <stdio.h>
+int getNumberFormUser(){
+    int i;
+    scanf("%d",&i);
+    return i;
+}
+int findMultipleThemValue(int a,int b){
+    return a-=b;
+}
+
+int main() {
+      printf("Enter a first value ");
+      int number1 = getNumberFormUser();
+    printf("Enter A Second value ");
+       int number2 = getNumberFormUser();
+int multiple = findMultipleThemValue(number1,number2);
+  printf("%d",multiple);
+    return 0;
+}
