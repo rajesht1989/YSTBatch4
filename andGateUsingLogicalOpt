@@ -1,0 +1,20 @@
+// write a program to get no from user and find not equal value using logical opertor print it on console
+#include <stdio.h>
+int getNumberFormUser(){
+    int i;
+    scanf("%d",&i);
+    return i;
+}
+int findAndGateValue(int a,int b){
+    return a&&b;
+}
+
+int main() {
+      printf("Enter a first value ");
+      int number1 = getNumberFormUser();
+    printf("Enter A Second value ");
+       int number2 = getNumberFormUser();
+int andgate = findAndGateValue(number1,number2);
+  printf("value is %d",andgate);
+    return 0;
+}
