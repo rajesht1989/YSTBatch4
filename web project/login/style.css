@@ -1,0 +1,176 @@
+
+body {
+    position: fixed;
+    align-items: center;
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.container {
+    background-color: azure;
+    border-radius: 0;
+    box-sizing: border-box;
+    height: 1024px;
+    padding: 20px;
+    width: 2160px;
+    display:grid;
+    grid-template-columns: 6fr 4fr;
+}f
+
+.container .right_side {
+    position: relative;
+    background-color: bisque;
+    padding: 40px;
+    margin-top: 25%;
+}
+
+.form {
+    padding: 20% 20% 20% 20%;
+    margin-top: 250px; 
+}
+
+.title {
+    color: black;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.welcome {
+    color:black;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+
+.paragh {
+    color:darkgrey;
+    font-family: Poppins;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 250px;
+    font-weight: bold;
+}
+
+
+.login {
+    color:darkgrey;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight:bold;
+    padding-top: 100px;
+    margin-left: 250px;
+    align-items: center;
+}
+
+.checkbox {
+        color:lightgrey;
+        font-family: Poppins;
+        border-color: lightgray;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 25px;
+        margin-left: 250px;
+        align-items: center;
+    }
+
+.txt {
+    color:darkgrey;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text {
+    color:darkgrey;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 350px;
+    align-items: center;
+}
+
+.input {
+    background-color:lightgrey;
+    border-radius: 5px;
+    border: 0;
+    box-sizing: border-box;
+    color:darkgrey;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-left: 250px;
+    height: 50%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 50%;
+}
+
+.link {
+    text-decoration: none;
+    color:coral;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.pwd {
+    text-decoration: none;
+    color:coral;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.loginbutton {
+    background-color:darkcyan;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color:#eee;
+    cursor: pointer;
+    font-size: 16px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 250px;
+    text-align: center;
+    width: 50%;
+}
+
+.loginbutton:active {
+    background-color:aquamarine;
+}
+
+.LoginWithGoogle {
+    background-color: #fff;
+    border-radius: 12px;
+    border: 0.5;
+    border-color: lightgray;
+    box-sizing: border-box;
+    color:darkgray;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 250px;
+     outline: 2;
+    text-align: center;
+    width: 50%;
+}
+
+.LoginWithGoogle:active {
+    background-color:aquamarine;
+}
+.container .left_side {
+    position: relative;
+}
