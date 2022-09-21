@@ -109,7 +109,7 @@ header{
 }
 
 .text .tryfree {
-    background-color: rgb(21, 112, 82);
+    background-color: rgb(8, 122, 107);
     background-size:48px;
     color: #fff;
     font-size: 24px;
@@ -195,7 +195,7 @@ padding-top: 25px;
     }
 
     .icons-container .icon {
-        background-color: rgb(21, 112, 82);
+        background-color: rgb(8, 122, 107);
         width: 300px;
         height: 300px;
         padding-top: 50px;
@@ -269,7 +269,7 @@ padding-top: 25px;
                 padding-bottom: 20px;
             }
             .btn1 {
-                background-color: rgb(21, 112, 82);
+                background-color: rgb(8, 122, 107);
                 background-size:48px;
                 color: #fff;
                 font-size: 24px;
@@ -322,7 +322,7 @@ padding-top: 25px;
             }
             
             .txt .tryfree {
-                background-color: rgb(21, 112, 82);
+                background-color: rgb(8, 122, 107);
                 background-size:48px;
                 color: #fff;
                 font-size: 24px;
@@ -387,7 +387,7 @@ padding-top: 25px;
                 border-radius: 20px;
             }
             .box h3 {
-                color:  rgb(21, 112, 82);
+                color:  rgb(8, 122, 107);
                 font-weight: 600;
                 
             }
@@ -412,7 +412,7 @@ padding-top: 25px;
             }
             
             .box i {
-                color:  rgb(21, 112, 82);
+                color:  rgb(8, 122, 107);
                 font-size: 20px;
                 padding-right: 20px;
                 font-weight: bold;
@@ -447,7 +447,7 @@ padding-top: 25px;
             }
 
             .box1 {
-                background-color: rgb(21, 112, 82);
+                background-color:  rgb(8, 122, 107);
                 width: 380px;
                 height: 550px;
                 padding-top: 20px;
@@ -592,3 +592,87 @@ padding-top: 25px;
                 margin-left: 0px;
                 text-align: left;
             }
+
+            .box2 {
+                display: grid;
+                background-position: center;
+                margin-top: 0px;
+                margin-left: 300px;
+                width: 1200px;
+                height: 400px;
+                background-color: rgb(8, 122, 107);
+                border-radius: 25px;
+            }
+
+            .box2 .img1 {
+                margin-top: -25px;
+                margin-left: -13px;
+                padding-top: 0px;
+                padding-left: -100px;
+                /* width: 250px; */
+                /* height: 234px; */
+                position: relative;
+                /* background: url(img/side.png); */
+                background-position:center left;
+                display: grid;
+                /* grid-template-columns: 2fr 1fr; */
+                background-repeat: no-repeat;
+            }
+
+            .box2 .img1 p {
+                padding-left: -50px;
+                margin-top: -250px;
+                padding-top: -50px;
+                text-align: center;
+                color: #fff;
+                font-weight: bold;
+                font-size: 56px;
+            }
+
+            .box2 .button {
+                background-color:orangered;
+                background-size:56px;
+                margin-top: -100px;
+                margin-left: 480px;
+                display: block;
+                height: 60px;
+                width: 300px;
+                color:#fff;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+                padding: 10px 10px;
+                padding-bottom: 10px;
+                font-weight: 300;
+                border-radius: 40px;
+            }
+
+            .style {
+                width: 100%;
+            }
+
+            .style i {
+                color: rgb(8, 122, 107);
+            }
+
+            .style p {
+                text-align: left;
+                color: lightslategray;
+            }
+
+            .style th {
+                text-align: left;
+                padding: 06px;
+            }
+
+            .style td {
+                text-align: left;
+                padding-top: 0px;
+                font-weight: 300;
+            }
+
+            p {
+                text-align: center;
+                font-weight: 500;
+            }
+            
