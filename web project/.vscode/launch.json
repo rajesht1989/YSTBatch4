@@ -4,11 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+    
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open homepage.html",
-            "file": "/home/yaash/Desktop/YSTBatch4/web project/home/homepage.html"
+            "name": "Open home.html",
+            "file": "/home/yaash/Desktop/YSTBatch4/web project/home/home.html"
         }
     ]
 }
