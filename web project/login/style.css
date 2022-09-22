@@ -73,7 +73,7 @@ body {
 .checkbox {
         color:lightgrey;
         font-family: Poppins;
-        border-color: lightgray;
+        accent-color: lightgray;
         font-size: 16px;
         font-weight: 600;
         margin-top: 25px;
@@ -99,7 +99,7 @@ body {
 }
 
 .input {
-    background-color:lightgrey;
+    background-color:rgb(240 230 230);
     border-radius: 5px;
     border: 0;
     box-sizing: border-box;
@@ -133,6 +133,7 @@ body {
 }
 .loginbutton {
     background-color:darkcyan;
+    border-style: double;
     border-radius: 12px;
     border: 0;
     box-sizing: border-box;
@@ -152,6 +153,7 @@ body {
 
 .LoginWithGoogle {
     background-color: #fff;
+    border-style:double;
     border-radius: 12px;
     border: 0.5;
     border-color: lightgray;
