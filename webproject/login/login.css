@@ -132,9 +132,9 @@ body {
     margin-left: 150px;
 }
 .loginbutton {
-    background-color:darkcyan;
+    background-color:darkcyan; 
     border-style: double;
-    border-radius: 12px;
+    border-radius: 16px;
     border: 0;
     box-sizing: border-box;
     color:#eee;
@@ -145,6 +145,16 @@ body {
     margin-left: 250px;
     text-align: center;
     width: 50%;
+
+                /* background-color: rgb(8, 122, 107);
+                background-size: 500px;
+                background-size:48px;
+                color: #fff;
+                font-size: 16px;
+                padding: 10px 40px;
+                padding-bottom: 10px;
+                font-weight: 300;
+                border-radius: 5px; */
 }
 
 .loginbutton:active {

@@ -12,7 +12,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open home.html",
-            "file": "/home/yaash/Desktop/YSTBatch4/web project/home/homepage.html"
+            "file": "home/homepage.html"
         }
     ]
 }
