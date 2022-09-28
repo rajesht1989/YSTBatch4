@@ -5,6 +5,7 @@
     margin: 50;
     margin-left: 10px;
     padding: 0;
+    /* position: fixed; */
     box-sizing: border-box;
     scroll-padding-top: 2rem;
     scroll-behavior: smooth;
@@ -15,6 +16,8 @@
 
 .title {
     margin-top: 10;
+    margin-left: 0px;
+    padding-left: 0px;
     color: black;
     font-weight: 500;
 }
@@ -59,7 +62,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #eeeff1;
+    background: #fff;
     padding: 15px 100px;
 }
 
@@ -83,7 +86,7 @@ header{
     /* width: 920px; */
     min-height: 720px;
     position:relative;
-    background: url(img/trade.png);
+    background: url(../img/trade.png);
     background-position: right;
     /* background-size: cover; */
     display: grid;
@@ -98,7 +101,7 @@ header{
 }
 
 .text h1 {
-    margin-top: 0px;
+    margin-top: 10px;
     font-size: 56px;
 }
 
@@ -161,7 +164,7 @@ header{
 .icon-container {
     display: grid;
     gap: 4rem;
-    background: url(img/waves.jpeg); 
+    background: url(../img/waves.jpeg); 
     background-position: center;
     background-size: auto;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -223,8 +226,9 @@ header{
                 height: 100px;
                 display: grid;
                 position: relative;
-                padding-bottom: 50px;
-                background: url(img/birds.png);
+                padding-bottom: 80px;
+                margin-bottom: 50px;
+                background: url(../img/birds.png);
                 background-position: center;
                 align-items: center;
                 background-repeat: no-repeat;
@@ -298,33 +302,40 @@ header{
             }
 
             .export {
-                height: 1100px;
+                height: 1000px;
                 position: relative;
-                background: url(img/exportation.png);
-                background-position:center left;
+                margin-left: -150px;
+                width: 840px;
+                background: url(../img/exportation.png);
+                background-position:left;
                 display: grid;
                 /* grid-template-columns: 2fr 1fr; */
                 background-repeat: no-repeat;
             }
             .txt {
-                margin-left: 1000px;
-                padding-top: 300px;
+                margin-left: 850px;
+                padding-top: 100px;
                 text-align: left;
+                /* padding-left: 0px; */
+                /* padding-right: 0px; */
                 align-items: center;
                 font-weight: bold;
                 font-size: 16px;
-                margin-bottom: 0px;
+                /* margin-bottom: 0px; */
             }
             
             .txt h1 {
                 margin-top: 0px;
-                font-size: 56px;
+                margin-left: 300px;
+                text-align: left;
+                align-items: center;
+                font-size: 36px;
             }
             
-            .txt .paragh {
+            .txt h3 {
                 color:rgb(105, 93, 93);
                 margin-top: 0px;
-                font-size: 30px;
+                font-size: 18px;
                 font-weight: 300;
             }
             
@@ -373,7 +384,7 @@ header{
             .icons-container {
                 display: grid;
                 gap: 5rem;
-                background: url(img/waves.jpeg); 
+                background: url(../img/waves.jpeg); 
                 background-position: center;
                 background-size: auto;
                 grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -571,7 +582,8 @@ header{
                 width: 840px;
                 height: 960px;
                 position: relative;
-                background: url(img/action.png);
+                margin-left: -100px;
+                background: url(../img/action.png);
                 background-position:center left;
                 display: grid;
                 /* grid-template-columns: 2fr 1fr; */
@@ -579,7 +591,7 @@ header{
             }
 
             .text1 {
-                margin-left: 840px;
+                margin-left: 890px;
             }
             
             .text1 h1 {
@@ -679,6 +691,10 @@ header{
 
             .style i {
                 color: rgb(8, 122, 107);
+            }
+
+            .style i1 {
+                margin-right: 10px;
             }
 
             .style p {
