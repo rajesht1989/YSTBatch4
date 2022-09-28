@@ -81,8 +81,8 @@ header{
 
 .home {
     /* width: 920px; */
-    min-height: 1045px;
-    position: relative;
+    min-height: 720px;
+    position:relative;
     background: url(img/trade.png);
     background-position: right;
     /* background-size: cover; */
@@ -140,7 +140,7 @@ header{
 }
 
 .sw img {
-    width: 240px;
+    width: 160px;
 
 }
 .hd {
@@ -158,62 +158,63 @@ header{
     font-weight: bold;
 }
 
-.icons-container {
+.icon-container {
     display: grid;
-    gap: 5rem;
+    gap: 4rem;
     background: url(img/waves.jpeg); 
     background-position: center;
     background-size: auto;
-    /* background-color: #474fa0; */
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     background-repeat: no-repeat;
 }
 
-.icons-container .icons {
-    background-color:rgb(240, 230, 230);
-    width: 300px;
-    height: 300px;
-    padding-top: 50px;
+.icon-container .icons {
+    background-color:#fff;
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
     font-weight: bold;
     border: lightgray;
     border-radius: 20px;
 }
 
-.icons-container .icons img {
-    width: 80px;
-    height: 80px;
+.icon-container .icons img {
+    width: 60px;
+    height: 60px;
+    padding-bottom: -20px;
 }
 
-.icons-container .icons h1 {
-padding-top: 0px;
+.icon-container .icons h1 {
+    font-size: 20px;
+    padding-top: -20px;
 }
 
-.icons-container .icons h4 {
-    padding-top: 20px;
+.icon-container .icons h4 {
+    /* padding-top: 10px; */
     color: darkgray;
     }
 
-    .icons-container .icon {
+    .icon-container .icon {
         background-color: rgb(8, 122, 107);
-        width: 300px;
-        height: 300px;
-        padding-top: 50px;
+        width: 200px;
+        height: 200px;
+        padding-top: 0px;
         font-weight: bold;
         border: lightgray;
         border-radius: 20px;
     }
 
-    .icons-container .icon h1 {
-        padding-top: 5px;
-        font-size: 40px;
+    .icon-container .icon h1 {
+        padding-top: 0px;
+        font-size: 36px;
         color: #fff;
         font-weight: bolder;
         }
         
-        .icons-container .icon h4 {
-            padding-top: 20px;
+        .icon-container .icon h4 {
+            padding-top: 0px;
             font-weight: 300;
             color:#fff;
             }
@@ -230,8 +231,9 @@ padding-top: 0px;
             }
 
             .img h1 {
-                padding-top: 50px;
                 text-align: center;
+                padding-top: 50px;
+                align-items: center;
             }
 
             .img h5 {
@@ -244,7 +246,8 @@ padding-top: 0px;
                 position: relative;
                 padding-top: 500px;
                 text-align: center;
-                padding-left: 50px;
+                margin-left: -50px;
+                padding-left: -50px;
                 align-items: center;
             }
 
@@ -565,6 +568,7 @@ padding-top: 0px;
             }
 
             .action {
+                width: 840px;
                 height: 960px;
                 position: relative;
                 background: url(img/action.png);
@@ -575,7 +579,11 @@ padding-top: 0px;
             }
 
             .text1 {
-                margin-left: 960px;
+                margin-left: 840px;
+            }
+            
+            .text1 h1 {
+                font-size:20px;
             }
 
             .text1 i1 {
@@ -583,6 +591,7 @@ padding-top: 0px;
                 font-size: 50px;
                 color:coral;
             }
+
             .text1 i {
                 font-size: 50px;
                 color:coral;
@@ -592,27 +601,28 @@ padding-top: 0px;
                 /* width: 120px; */
                 /* height: 20px; */
                 margin-top: -250px;
-                margin-left: 250px;
+                margin-left: 160px;
             }
 
-            .text h3 {
+            .text1 th {
                 margin-bottom: 0px;
                 margin-top: 0px;
                 padding-top: 0px;
                 margin-left: 0px;
+                font-size: 18px;
                 text-align: left;
             }
 
-             .text .h6 { 
-                margin-top: 100px;
-                padding-top: 100px;
-            }
+             /* .text .h6 {  
+                margin-top: 100px; 
+                padding-top: 100px; 
+            } */
 
             .box2 {
                 display: grid;
                 background-position: center;
                 margin-top: 0px;
-                margin-left: 300px;
+                margin-left: 10px;
                 width: 1200px;
                 height: 400px;
                 background-color: rgb(8, 122, 107);
