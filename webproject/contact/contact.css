@@ -80,19 +80,19 @@ header{
 }
 
 .section {
-    margin: 120px 240px 120px 240px;
+     margin: 100px 20px 20px 120px; 
 }
 
 .section p1 {
     /* margin-top: 400px; */
     padding-left: 10px;
-    font-size: 52px;
+    font-size: 48px;
     font-weight: bold;
 }
 
 .section td { 
     padding-left: 0px;
-    width: 800px;
+    width: 500px;
     text-align: left;
     padding-top: 0px;
     font-weight: 300;
@@ -102,7 +102,7 @@ header{
     color: darkgrey;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 800px;
+    width: 400px;
     font-weight: bold;
 }
 
@@ -137,7 +137,7 @@ header{
     border-color: rgb(240, 230, 230);
     border-style: dashed;
     border-radius: 10px;
-    width: 600px;
+    width: 500px;
     height: 50px;
     font-weight: bold;
 }
@@ -147,7 +147,7 @@ header{
     border-color: rgb(240, 230, 230);
     border-style: dashed;
     border-radius: 10px;
-    width: 1270px;
+    width: 1024px;
     height: 200px;
     font-weight: bold;
 }
@@ -166,26 +166,21 @@ header{
 }
 
 .style i {
-    margin-top: 0px 0px 0px 0px;
     color: rgb(8, 122, 107);
 }
 
 .style p {
-    margin-top: 0px 0px 0px 0px;
     text-align: left;
     color: lightslategray;
 }
 
 .style th {
-    margin: 0px 0px 0px 0px;
     text-align: left;
     padding-left: 06px;
 }
 
 .style td {
-    margin: 0px 0px 0px 0px;
-    text-align: left;
-    padding-top: 0px;
+    text-align: left
     font-weight: 300;
 }
 

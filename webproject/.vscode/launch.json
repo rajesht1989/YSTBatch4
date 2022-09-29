@@ -7,12 +7,14 @@
 
 
 
+
+
     
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open home.html",
-            "file": "home/homepage.html"
+            "name": "Open contact.html",
+            "file": "contact/contact.html"
         }
     ]
 }

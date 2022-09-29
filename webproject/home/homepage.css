@@ -164,6 +164,7 @@ header{
 .icon-container {
     display: grid;
     gap: 4rem;
+    /* height: 960px; */
     background: url(../img/waves.jpeg); 
     background-position: center;
     background-size: auto;
@@ -709,8 +710,13 @@ header{
 
             .style td {
                 text-align: left;
+                color: rgb(105, 93, 93);
                 padding-top: 0px;
                 font-weight: 300;
+            }
+
+            .style a {
+                color: rgb(105, 93, 93);
             }
 
             p {
