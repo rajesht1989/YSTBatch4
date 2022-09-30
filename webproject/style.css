@@ -1,3 +1,185 @@
+/* Login Page */
+
+body {
+    position: fixed;
+    align-items: center;
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.container {
+    background-color: azure;
+    border-radius: 0;
+    box-sizing: border-box;
+    height: 1024px;
+    padding: 20px;
+    width: 2160px;
+    display:grid;
+    grid-template-columns: 3fr 6fr;
+}f
+
+.container .right_side {
+    position: relative;
+    background-color: bisque;
+    padding: 40px;
+    margin-top: 25%;
+}
+
+.form {
+    padding: 20% 20% 20% 20%;
+    margin-top: 250px; 
+}
+
+.title {
+    color: black;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.welcome {
+    color:black;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 200px;
+    margin-left: 160px;
+    margin-bottom: 10px;
+}
+
+.paragh {
+    color:darkgrey;
+    font-family: Poppins;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 160px;
+    font-weight: bold;
+}
+
+
+.login {
+    color:darkgrey;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight:bold;
+    padding-top: 50px;
+    margin-left: 160px;
+    align-items: center;
+}
+
+.checkbox {
+        color:lightgrey;
+        font-family: Poppins;
+        accent-color: lightgray;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 25px;
+        margin-left: 160px;
+        align-items: center;
+    }
+
+.txt {
+    color:darkgrey;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text {
+    color:darkgrey;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.input {
+    background-color:rgb(240 230 230);
+    border-radius: 5px;
+    border: 0;
+    box-sizing: border-box;
+    color:darkgrey;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-left: 160px;
+    height: 50%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 50%;
+}
+
+.link {
+    text-decoration: none;
+    color:coral;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.pwd {
+    text-decoration: none;
+    color:coral;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.loginbutton {
+    background-color:darkcyan; 
+    border-style: double;
+    border-radius: 16px;
+    border: 0;
+    box-sizing: border-box;
+    color:#eee;
+    cursor: pointer;
+    font-size: 16px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 160px;
+    text-align: center;
+    width: 50%;
+}
+
+.loginbutton:active {
+    background-color:aquamarine;
+}
+
+.LoginWithGoogle {
+    background-color: #fff;
+    border-style:double;
+    border-radius: 12px;
+    border: 0.5;
+    border-color: lightgray;
+    box-sizing: border-box;
+    color:darkgray;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 160px;
+     outline: 2;
+    text-align: center;
+    width: 50%;
+}
+
+.LoginWithGoogle:active {
+    background-color:aquamarine;
+}
+.container .left_side {
+    position: relative;
+}
+
+/* Home Page */
+
 /* Google Font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -727,4 +909,89 @@ header{
                 text-align: center;
                 font-weight: 500;
             }
+
+            /* Contact Page */
+
+            .section {
+                margin: 100px 20px 20px 100px; 
+           }
+           
+           .section p1 {
+               padding-left: 10px;
+               /* padding-bottom: 50px; */
+               font-size: 42px;
+               font-weight: bold;
+           }
+           
+           .section td { 
+               padding-left: 0px;
+               width: 500px;
+               text-align: left;
+               padding-top: 0px;
+               font-weight: 300;
+           }
+           
+           .section .name {
+               color: darkgrey;
+               margin-top: 20px;
+               margin-bottom: 20px;
+               width: 400px;
+               font-weight: bold;
+           }
+           
+           ::placeholder {
+               color: lightgrey;
+               font-size: 16px;
+               padding-left: 20px;
+           }
+           .section .bttn  {
+               margin-top: 50px;
+               background-color: rgb(8, 122, 107);
+               background-size:48px;
+               color: #fff;
+               font-size: 24px;
+               padding: 10px 40px;
+               padding-bottom: 10px;
+               font-weight: 300;
+               border-radius: 25px;
+           }
+           
+           .section h1 {
+               font-size: 48px;
+           }
+           
+           .section p2 {
+               font-size: 20px;
+               font-weight: 200;
+           }
+           
+           .section .input1 {
+               background-color: rgb(240, 230, 230);
+               border-color: rgb(240, 230, 230);
+               border-style: dashed;
+               border-radius: 10px;
+               width: 500px;
+               height: 50px;
+               font-weight: bold;
+           }
+           
+           .section .input2 {
+               background-color:rgb(240, 230, 230);
+               border-color: rgb(240, 230, 230);
+               border-style: dashed;
+               border-radius: 10px;
+               width: 1024px;
+               height: 200px;
+               font-weight: bold;
+           }
+           
+           .section .ques {
+               color: #000;
+               font-size: 24px;
+               font-weight: bold;
+               margin-top: 40px;
+               margin-bottom: 40px;
+               padding-top: 40px;
+           }
+           
             
