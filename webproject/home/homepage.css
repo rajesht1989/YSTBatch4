@@ -5,7 +5,6 @@
     margin: 50;
     margin-left: 10px;
     padding: 0;
-    /* position: fixed; */
     box-sizing: border-box;
     scroll-padding-top: 2rem;
     scroll-behavior: smooth;
@@ -16,8 +15,6 @@
 
 .title {
     margin-top: 10;
-    margin-left: 0px;
-    padding-left: 0px;
     color: black;
     font-weight: 500;
 }
@@ -84,7 +81,7 @@ header{
 
 .home {
     /* width: 920px; */
-    margin-top: 50px;
+    margin-top: 80px;
     min-height: 720px;
     position:relative;
     background: url(../img/trade.png);
@@ -128,23 +125,25 @@ header{
     background: #474fa0;
 }
 
-.head {
-    text-align: left;
+.text .hd {
+    text-align:left;
     padding-top: 80px;
 }
 
-.data {
+.text .data {
     color: darkgrey;
+    font-weight: 400;
 }
 
-.sw p{
+.sw h2{
     text-align: center;
+    /* color: #474fa0; */
     font-size: 24px;
     font-weight: bold;
 }
 
 .sw img {
-    width: 160px;
+    width: 150px;
 
 }
 .hd {
@@ -165,7 +164,6 @@ header{
 .icon-container {
     display: grid;
     gap: 4rem;
-    /* height: 960px; */
     background: url(../img/waves.jpeg); 
     background-position: center;
     background-size: auto;
@@ -315,57 +313,58 @@ header{
                 background-repeat: no-repeat;
             }
             .txt {
-                margin-left: 850px;
-                padding-top: 100px;
-                text-align: left;
-                /* padding-left: 0px; */
-                /* padding-right: 0px; */
-                /* align-items: center; */
-                font-weight: bold;
-                font-size: 16px;
-                /* margin-bottom: 0px; */
-            }
-            
-            .txt h1 {
-                margin-top: 0px;
-                margin-left: 300px;
-                text-align: left;
-                align-items: center;
-                font-size: 36px;
-            }
-            
-            .txt h3 {
-                color:rgb(105, 93, 93);
-                margin-top: 0px;
-                font-size: 18px;
-                font-weight: 300;
-            }
-            
-            .txt .tryfree {
-                background-color: rgb(8, 122, 107);
-                background-size:48px;
-                color: #fff;
-                font-size: 24px;
-                padding: 10px 40px;
-                padding-bottom: 10px;
-                font-weight: 300;
-                border-radius: 25px;
-            }
-            
-            .txt .tryfree:hover {
-                background: #474fa0;
-            }
+    margin-left: 1000px;
+    padding-top: 300px;
+    text-align: left;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
 
-            .txt .tryfree i {
-                color: #fff;
-                font-weight: bold;
-                font-size: 40px;
-                padding: 0px 0px 0px 0px;
-            }
+.txt h1 {
+    margin-top: 0px;
+    width: 600px;
+    margin-left: -150px;
+    font-size: 42px;
+}
 
-            .txt .arrow {
-                margin-top: 20px;
-            }
+.txt h3 {
+    color: rgb(105, 93, 93);
+    margin-top: 0px;
+    margin-left: -150px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.txt .tryfree {
+    background-color: rgb(8, 122, 107);
+    background-size: 48px;
+    margin-left: -150px;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 40px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    border-radius: 25px;
+}
+
+.txt .tryfree:hover {
+    background: #474fa0;
+}
+
+.txt .tryfree i {
+    color: #fff;
+    font-weight: bold;
+    vertical-align: middle;
+    font-size: 40px;
+    padding: 0px 0px 0px 0px;
+}
+
+.txt .arrow {
+    margin-top: 20px;
+    margin-left: -150px;
+}
 
             .hd1 {
                 padding-top: 0px;
@@ -401,7 +400,7 @@ header{
                 height: 550px;
                 padding-top: 20px;
                 padding-left: 20px;
-                margin-left: 500px;
+                margin-left: 200px;
                 font-weight: bold;
                 border:gray;
                 border-radius: 20px;
@@ -597,6 +596,8 @@ header{
             }
             
             .text1 h1 {
+                margin-top: 50px;
+                margin-bottom: 50px;
                 font-size:20px;
             }
 
@@ -620,7 +621,7 @@ header{
 
             .text1 th {
                 margin-bottom: 0px;
-                margin-top: 0px;
+                margin-top: 50px;
                 padding-top: 0px;
                 margin-left: 0px;
                 font-size: 18px;

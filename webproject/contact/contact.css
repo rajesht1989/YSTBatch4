@@ -59,7 +59,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #eeeff1;
+    background: #fff;
     padding: 15px 100px;
 }
 
@@ -80,13 +80,13 @@ header{
 }
 
 .section {
-     margin: 100px 20px 20px 120px; 
+     margin: 160px 20px 20px 100px; 
 }
 
 .section p1 {
-    /* margin-top: 400px; */
     padding-left: 10px;
-    font-size: 48px;
+    /* padding-bottom: 50px; */
+    font-size: 42px;
     font-weight: bold;
 }
 
@@ -169,6 +169,10 @@ header{
     color: rgb(8, 122, 107);
 }
 
+.style i1 {
+    margin-right: 10px;
+}
+
 .style p {
     text-align: left;
     color: lightslategray;
@@ -176,16 +180,23 @@ header{
 
 .style th {
     text-align: left;
-    padding-left: 06px;
+    padding: 06px;
 }
 
 .style td {
-    text-align: left
+    text-align: left;
+    padding-top: 0px;
+    color: rgb(105, 93, 93);
     font-weight: 300;
+}
+
+.style a {
+    color: rgb(105, 93, 93);
 }
 
 p {
     padding-top: 50px;
+    margin-left: 100px;
     text-align: center;
     font-weight: 500;
 }
