@@ -186,6 +186,7 @@ header{
 .icon-container .icons img {
     width: 60px;
     height: 60px;
+    margin-left: 0px;
     padding-bottom: -20px;
 }
 
