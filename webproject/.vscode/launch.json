@@ -13,8 +13,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open contact.html",
-            "file": "contact/contact.html"
+            "name": "Open login.html",
+            "file": "login/login.html"
         }
     ]
 }

@@ -84,6 +84,7 @@ header{
 
 .home {
     /* width: 920px; */
+    margin-top: 50px;
     min-height: 720px;
     position:relative;
     background: url(../img/trade.png);
@@ -319,7 +320,7 @@ header{
                 text-align: left;
                 /* padding-left: 0px; */
                 /* padding-right: 0px; */
-                align-items: center;
+                /* align-items: center; */
                 font-weight: bold;
                 font-size: 16px;
                 /* margin-bottom: 0px; */
@@ -710,8 +711,8 @@ header{
 
             .style td {
                 text-align: left;
-                color: rgb(105, 93, 93);
                 padding-top: 0px;
+                color: rgb(105, 93, 93);
                 font-weight: 300;
             }
 
