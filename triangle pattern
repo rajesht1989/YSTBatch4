@@ -1,0 +1,25 @@
+//print triangle pattern
+#include <stdio.h>
+int getNumber (){
+    int i ;
+    printf ("Enter number ");
+    scanf ("%d",& i);
+    return i;
+}
+int printStar (int n){
+    for (int i=0 ; i < n ; i++){
+        for (int j= 0; j < n * 2-i-1;j++){
+            printf ("\b");
+        }
+        for (int a = 0; a < i*2 ; a++){
+            printf ("*");
+        }
+     printf ("\n");
+    }
+}
+
+int main() {
+  
+printStar (getNumber ());
+
+}
